@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-container">
+    <h1>🎮 Task Game</h1>
+    <p class="subtitle">Complete tasks and earn points</p>
+
+    <div class="score-card">
+      ⭐ Points: <span id="points">0</span>
+    </div>
+
+    <div class="task-card">
+      <h2>Daily Task</h2>
+      <p>Click the button to complete the task</p>
+      <button onclick="completeTask()">Complete Task</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
